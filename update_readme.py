@@ -30,10 +30,8 @@ with open("README.md", "w", encoding="utf-8") as readme:
     for nb in sorted(notebooks):
         readme.write(f"- [{nb}](./{nb})\n")
 
-    readme.write("\n---\n\n## 📖 Notebook Contents\n\n")
-    
     # Add instructions for environment setup
-    readme.write("### ⚙️ Activating Virtual Environment:\n\n")
+    readme.write("## ⚙️ Activating Virtual Environment:\n\n")
     readme.write("Run the following commands to set up and activate the virtual environment:\n\n")
     
     readme.write("```sh\n")  # Start code block
@@ -41,6 +39,10 @@ with open("README.md", "w", encoding="utf-8") as readme:
     readme.write("source venv/bin/activate  # For Linux/macOS\n")
     readme.write("venv\\Scripts\\activate  # For Windows\n")
     readme.write("```\n\n")  # End code block
+
+    readme.write("\n---\n\n## 📖 Notebook Contents\n\n")
+
+    
 
     readme.write("\n---\n\n")
 
