@@ -38,6 +38,7 @@ with open("README.md", "w", encoding="utf-8") as readme:
     readme.write("python3 -m venv venv\n")
     readme.write("source venv/bin/activate  # For Linux/macOS\n")
     readme.write("venv\\Scripts\\activate  # For Windows\n")
+    readme.write("pip install numpy  # install numpy library \n")
     readme.write("```\n\n")  # End code block
 
     readme.write("\n---\n\n## 📖 Notebook Contents\n\n")

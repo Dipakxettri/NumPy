@@ -11,6 +11,7 @@ Run the following commands to set up and activate the virtual environment:
 python3 -m venv venv
 source venv/bin/activate  # For Linux/macOS
 venv\Scripts\activate  # For Windows
+pip install numpy  # install numpy library 
 ```
 
 
