@@ -8,6 +8,19 @@ Click on any notebook to open it in GitHub:
 
 ## 📖 Notebook Contents
 
+
+---
+
+### Activating Enviroment:
+
+
+---
+
+`
+ python3 -m venv venv
+ source venv/bin/activate
+ venv\Scripts\activate`
+
 ### ./venv/phase-1.ipynb
 
 ## Numpy array and basics

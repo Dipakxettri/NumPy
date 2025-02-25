@@ -1,3 +1,10 @@
+
+# This is a python script which does following :
+# This script will:
+# ✔️ Find all .ipynb files
+# ✔️ Add their links to README.md
+# ✔️ Convert their content to Markdown and append it
+
 import os
 import nbformat
 from nbconvert import MarkdownExporter
@@ -24,6 +31,9 @@ with open("README.md", "w", encoding="utf-8") as readme:
         readme.write(f"- [{nb}](./{nb})\n")
 
     readme.write("\n---\n\n## 📖 Notebook Contents\n\n")
+    readme.write("\n---\n\n### Activating Enviroment:\n\n")
+    readme.write("\n---\n\n`\n python3 -m venv venv\n source venv/bin/activate\n venv\\Scripts\\activate`\n\n")
+    
 
     for nb in sorted(notebooks):
         readme.write(f"### {nb}\n\n")
