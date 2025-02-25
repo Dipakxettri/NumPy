@@ -8,18 +8,18 @@ Click on any notebook to open it in GitHub:
 
 ## 📖 Notebook Contents
 
+### ⚙️ Activating Virtual Environment:
+
+Run the following commands to set up and activate the virtual environment:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate  # For Windows
+```
+
 
 ---
-
-### Activating Enviroment:
-
-
----
-
-`
- python3 -m venv venv
- source venv/bin/activate
- venv\Scripts\activate`
 
 ### ./venv/phase-1.ipynb
 
